@@ -1,0 +1,6 @@
+xcuserdata/
+xcshareddata/
+Pods/
+DelivedData/
+*.xcodeproj
+PodFile.lock
