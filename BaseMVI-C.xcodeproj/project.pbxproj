@@ -11,11 +11,15 @@
 		CE33CAA729C8B227004F6839 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33CAA629C8B227004F6839 /* SceneDelegate.swift */; };
 		CE33CAAE29C8B229004F6839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE33CAAD29C8B229004F6839 /* Assets.xcassets */; };
 		CE33CAB129C8B229004F6839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE33CAAF29C8B229004F6839 /* LaunchScreen.storyboard */; };
-		CE33CABF29C8B321004F6839 /* LoginSigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33CABD29C8B321004F6839 /* LoginSigninViewController.swift */; };
-		CE33CAC029C8B321004F6839 /* LoginSigninViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE33CABE29C8B321004F6839 /* LoginSigninViewController.xib */; };
 		CE33CAC329C8B55A004F6839 /* MVIProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33CAC229C8B55A004F6839 /* MVIProtocols.swift */; };
 		CE33CAC529C8B5DE004F6839 /* BaseMVIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33CAC429C8B5DE004F6839 /* BaseMVIViewController.swift */; };
 		CE33CAC729C8B5ED004F6839 /* BaseMVIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33CAC629C8B5ED004F6839 /* BaseMVIViewModel.swift */; };
+		CE3ABD8329D4899700CA0D8A /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABD8229D4899700CA0D8A /* Register.swift */; };
+		CE3ABD8629D48A6200CA0D8A /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABD8429D48A6200CA0D8A /* SigninViewController.swift */; };
+		CE3ABD8729D48A6200CA0D8A /* SigninViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3ABD8529D48A6200CA0D8A /* SigninViewController.xib */; };
+		CE3ABD8B29D48ABC00CA0D8A /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABD8929D48ABC00CA0D8A /* CreateAccountViewController.swift */; };
+		CE3ABD8C29D48ABC00CA0D8A /* CreateAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3ABD8A29D48ABC00CA0D8A /* CreateAccountViewController.xib */; };
+		CE3ABD8E29D48AD900CA0D8A /* SigninViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABD8D29D48AD900CA0D8A /* SigninViewModel.swift */; };
 		CE9E26303951E3DDD5A22AA6 /* Pods_BaseMVI_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F760BFCA59D103AAF5C18DE /* Pods_BaseMVI_C.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,11 +33,15 @@
 		CE33CAAD29C8B229004F6839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE33CAB029C8B229004F6839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE33CAB229C8B229004F6839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE33CABD29C8B321004F6839 /* LoginSigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSigninViewController.swift; sourceTree = "<group>"; };
-		CE33CABE29C8B321004F6839 /* LoginSigninViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginSigninViewController.xib; sourceTree = "<group>"; };
 		CE33CAC229C8B55A004F6839 /* MVIProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVIProtocols.swift; sourceTree = "<group>"; };
 		CE33CAC429C8B5DE004F6839 /* BaseMVIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMVIViewController.swift; sourceTree = "<group>"; };
 		CE33CAC629C8B5ED004F6839 /* BaseMVIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMVIViewModel.swift; sourceTree = "<group>"; };
+		CE3ABD8229D4899700CA0D8A /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		CE3ABD8429D48A6200CA0D8A /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		CE3ABD8529D48A6200CA0D8A /* SigninViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SigninViewController.xib; sourceTree = "<group>"; };
+		CE3ABD8929D48ABC00CA0D8A /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		CE3ABD8A29D48ABC00CA0D8A /* CreateAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAccountViewController.xib; sourceTree = "<group>"; };
+		CE3ABD8D29D48AD900CA0D8A /* SigninViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +70,6 @@
 				A53E248791CF44118DE141B8 /* Pods-BaseMVI-C.debug.xcconfig */,
 				CB79BC8A85AB81A86991AA56 /* Pods-BaseMVI-C.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -98,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				CE33CAC129C8B532004F6839 /* MVI */,
+				CE3ABD8229D4899700CA0D8A /* Register.swift */,
 				CE33CAA429C8B227004F6839 /* AppDelegate.swift */,
 				CE33CAA629C8B227004F6839 /* SceneDelegate.swift */,
 			);
@@ -117,24 +125,18 @@
 		CE33CABA29C8B2BD004F6839 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				CE33CABB29C8B2C8004F6839 /* Login */,
-			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
-		CE33CABB29C8B2C8004F6839 /* Login */ = {
-			isa = PBXGroup;
-			children = (
+				CE3ABD8829D48A7A00CA0D8A /* CreateAccount */,
 				CE33CABC29C8B2D7004F6839 /* Signin */,
 			);
-			path = Login;
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		CE33CABC29C8B2D7004F6839 /* Signin */ = {
 			isa = PBXGroup;
 			children = (
-				CE33CABD29C8B321004F6839 /* LoginSigninViewController.swift */,
-				CE33CABE29C8B321004F6839 /* LoginSigninViewController.xib */,
+				CE3ABD8D29D48AD900CA0D8A /* SigninViewModel.swift */,
+				CE3ABD8429D48A6200CA0D8A /* SigninViewController.swift */,
+				CE3ABD8529D48A6200CA0D8A /* SigninViewController.xib */,
 			);
 			path = Signin;
 			sourceTree = "<group>";
@@ -147,6 +149,15 @@
 				CE33CAC629C8B5ED004F6839 /* BaseMVIViewModel.swift */,
 			);
 			path = MVI;
+			sourceTree = "<group>";
+		};
+		CE3ABD8829D48A7A00CA0D8A /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				CE3ABD8929D48ABC00CA0D8A /* CreateAccountViewController.swift */,
+				CE3ABD8A29D48ABC00CA0D8A /* CreateAccountViewController.xib */,
+			);
+			path = CreateAccount;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +220,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE33CAC029C8B321004F6839 /* LoginSigninViewController.xib in Resources */,
+				CE3ABD8C29D48ABC00CA0D8A /* CreateAccountViewController.xib in Resources */,
+				CE3ABD8729D48A6200CA0D8A /* SigninViewController.xib in Resources */,
 				CE33CAB129C8B229004F6839 /* LaunchScreen.storyboard in Resources */,
 				CE33CAAE29C8B229004F6839 /* Assets.xcassets in Resources */,
 			);
@@ -264,12 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3ABD8629D48A6200CA0D8A /* SigninViewController.swift in Sources */,
 				CE33CAA529C8B227004F6839 /* AppDelegate.swift in Sources */,
 				CE33CAC529C8B5DE004F6839 /* BaseMVIViewController.swift in Sources */,
+				CE3ABD8E29D48AD900CA0D8A /* SigninViewModel.swift in Sources */,
 				CE33CAC729C8B5ED004F6839 /* BaseMVIViewModel.swift in Sources */,
+				CE3ABD8B29D48ABC00CA0D8A /* CreateAccountViewController.swift in Sources */,
 				CE33CAA729C8B227004F6839 /* SceneDelegate.swift in Sources */,
+				CE3ABD8329D4899700CA0D8A /* Register.swift in Sources */,
 				CE33CAC329C8B55A004F6839 /* MVIProtocols.swift in Sources */,
-				CE33CABF29C8B321004F6839 /* LoginSigninViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
