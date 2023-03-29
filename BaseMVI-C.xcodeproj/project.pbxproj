@@ -20,6 +20,10 @@
 		CE3ABD8B29D48ABC00CA0D8A /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABD8929D48ABC00CA0D8A /* CreateAccountViewController.swift */; };
 		CE3ABD8C29D48ABC00CA0D8A /* CreateAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3ABD8A29D48ABC00CA0D8A /* CreateAccountViewController.xib */; };
 		CE3ABD8E29D48AD900CA0D8A /* SigninViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABD8D29D48AD900CA0D8A /* SigninViewModel.swift */; };
+		CE3ABD9029D4A73800CA0D8A /* SigninMVI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABD8F29D4A73800CA0D8A /* SigninMVI.swift */; };
+		CE3ABD9629D4C67800CA0D8A /* SigninCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABD9529D4C67800CA0D8A /* SigninCoordinator.swift */; };
+		CE3ABD9829D4C70100CA0D8A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABD9729D4C70100CA0D8A /* Coordinator.swift */; };
+		CE3ABD9A29D4C74400CA0D8A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ABD9929D4C74400CA0D8A /* AppCoordinator.swift */; };
 		CE9E26303951E3DDD5A22AA6 /* Pods_BaseMVI_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F760BFCA59D103AAF5C18DE /* Pods_BaseMVI_C.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +46,10 @@
 		CE3ABD8929D48ABC00CA0D8A /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		CE3ABD8A29D48ABC00CA0D8A /* CreateAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAccountViewController.xib; sourceTree = "<group>"; };
 		CE3ABD8D29D48AD900CA0D8A /* SigninViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewModel.swift; sourceTree = "<group>"; };
+		CE3ABD8F29D4A73800CA0D8A /* SigninMVI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninMVI.swift; sourceTree = "<group>"; };
+		CE3ABD9529D4C67800CA0D8A /* SigninCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninCoordinator.swift; sourceTree = "<group>"; };
+		CE3ABD9729D4C70100CA0D8A /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CE3ABD9929D4C74400CA0D8A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,8 @@
 			children = (
 				CE33CAC129C8B532004F6839 /* MVI */,
 				CE3ABD8229D4899700CA0D8A /* Register.swift */,
+				CE3ABD9729D4C70100CA0D8A /* Coordinator.swift */,
+				CE3ABD9929D4C74400CA0D8A /* AppCoordinator.swift */,
 				CE33CAA429C8B227004F6839 /* AppDelegate.swift */,
 				CE33CAA629C8B227004F6839 /* SceneDelegate.swift */,
 			);
@@ -134,6 +144,8 @@
 		CE33CABC29C8B2D7004F6839 /* Signin */ = {
 			isa = PBXGroup;
 			children = (
+				CE3ABD9529D4C67800CA0D8A /* SigninCoordinator.swift */,
+				CE3ABD8F29D4A73800CA0D8A /* SigninMVI.swift */,
 				CE3ABD8D29D48AD900CA0D8A /* SigninViewModel.swift */,
 				CE3ABD8429D48A6200CA0D8A /* SigninViewController.swift */,
 				CE3ABD8529D48A6200CA0D8A /* SigninViewController.xib */,
@@ -278,13 +290,17 @@
 			files = (
 				CE3ABD8629D48A6200CA0D8A /* SigninViewController.swift in Sources */,
 				CE33CAA529C8B227004F6839 /* AppDelegate.swift in Sources */,
+				CE3ABD9A29D4C74400CA0D8A /* AppCoordinator.swift in Sources */,
 				CE33CAC529C8B5DE004F6839 /* BaseMVIViewController.swift in Sources */,
 				CE3ABD8E29D48AD900CA0D8A /* SigninViewModel.swift in Sources */,
+				CE3ABD9029D4A73800CA0D8A /* SigninMVI.swift in Sources */,
 				CE33CAC729C8B5ED004F6839 /* BaseMVIViewModel.swift in Sources */,
 				CE3ABD8B29D48ABC00CA0D8A /* CreateAccountViewController.swift in Sources */,
 				CE33CAA729C8B227004F6839 /* SceneDelegate.swift in Sources */,
+				CE3ABD9829D4C70100CA0D8A /* Coordinator.swift in Sources */,
 				CE3ABD8329D4899700CA0D8A /* Register.swift in Sources */,
 				CE33CAC329C8B55A004F6839 /* MVIProtocols.swift in Sources */,
+				CE3ABD9629D4C67800CA0D8A /* SigninCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

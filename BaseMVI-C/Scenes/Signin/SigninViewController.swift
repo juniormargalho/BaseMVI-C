@@ -7,23 +7,31 @@
 
 import UIKit
 
-class SigninViewController: UIViewController {
+// MARK: Delegate
+protocol SigninViewDelegate: AnyObject {
+    func goToCreateAccount()
+}
 
+class SigninViewController: BaseSigninVC {
+    // MARK: Properties
+    weak var delegate: SigninViewDelegate?
+    
+    // MARK: Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.title = "Signin"
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    override func render(_ viewState: SigninViewState) {
+        switch viewState {
+        case .initial:
+            break
+        case .loading(let isLoading):
+            isLoading ? print("Loading...") : print("Loaded")
+        case .successSignin(let greetingMessage):
+            print(greetingMessage)
+        case .errorSignin(let message):
+            print(message)
+        }
     }
-    */
-
 }
