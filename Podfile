@@ -7,5 +7,8 @@ target 'BaseMVI-C' do
 
   # Pods for BaseMVI-C
   pod 'RxSwift'
+  pod 'Resolver'
+  pod 'RxCocoa'
+  pod 'RxOptional'
 
 end
